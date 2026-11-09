@@ -1,0 +1,272 @@
+{
+  "users": [
+    {
+      "name": "Quản trị viên",
+      "email": "admin@library.local",
+      "role": "admin",
+      "locked": false,
+      "salt": "4c280cb11c27a34bb43463fd81a6b5a1",
+      "passwordHash": "9e87121a3aec2fb1d2774bc9fd4e8418e91a8e903153f58d805a70ad13eb7df1",
+      "createdAt": "2026-11-07T00:00:00.000Z",
+      "id": 2
+    },
+    {
+      "name": "Tiến",
+      "email": "chung@gmail.com",
+      "salt": "c611811028e3e94d5823018175b960da",
+      "passwordHash": "e8fd05438b89e0dfc17d05f2fcb216b6d4de0ccae08b941363fdbee05da977ff",
+      "role": "user",
+      "locked": false,
+      "createdAt": "2026-10-30T07:27:52.410Z",
+      "id": 1
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Lập trình"
+    },
+    {
+      "id": 2,
+      "name": "Kinh tế"
+    },
+    {
+      "id": 3,
+      "name": "Văn học"
+    },
+    {
+      "id": 4,
+      "name": "Khoa học"
+    },
+    {
+      "id": 5,
+      "name": "Kỹ năng sống"
+    },
+    {
+      "id": 6,
+      "name": "Lịch sử"
+    },
+    {
+      "id": 7,
+      "name": "Ngoại ngữ"
+    },
+    {
+      "name": "Kĩ thuật",
+      "id": 8
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "isbn": "9780132350884",
+      "categoryId": 1,
+      "year": 2008,
+      "quantity": 8,
+      "cover": "https://covers.openlibrary.org/b/isbn/9780132350884-M.jpg"
+    },
+    {
+      "id": 2,
+      "title": "The Pragmatic Programmer",
+      "author": "Andrew Hunt",
+      "isbn": "9780135957059",
+      "categoryId": 1,
+      "year": 2019,
+      "quantity": 5,
+      "cover": "https://covers.openlibrary.org/b/isbn/9780135957059-M.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Design Patterns",
+      "author": "Erich Gamma",
+      "isbn": "9780201633610",
+      "categoryId": 1,
+      "year": 1994,
+      "quantity": 4,
+      "cover": "https://covers.openlibrary.org/b/isbn/9780201633610-M.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Thinking, Fast and Slow",
+      "author": "Daniel Kahneman",
+      "isbn": "9780374533557",
+      "categoryId": 2,
+      "year": 2011,
+      "quantity": 6,
+      "cover": "https://covers.openlibrary.org/b/isbn/9780374533557-M.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Sapiens",
+      "author": "Yuval Noah Harari",
+      "isbn": "9780062316097",
+      "categoryId": 4,
+      "year": 2014,
+      "quantity": 7,
+      "cover": "https://covers.openlibrary.org/b/isbn/9780062316097-M.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Nhà giả kim",
+      "author": "Paulo Coelho",
+      "isbn": "9780061122415",
+      "categoryId": 3,
+      "year": 1988,
+      "quantity": 9,
+      "cover": "https://covers.openlibrary.org/b/isbn/9780061122415-M.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "isbn": "9780735211292",
+      "categoryId": 5,
+      "year": 2018,
+      "quantity": 6,
+      "cover": "https://covers.openlibrary.org/b/isbn/9780735211292-M.jpg",
+      "description": "Một cuốn sách thực tế về cách xây dựng thói quen nhỏ, duy trì tiến bộ đều đặn và tạo ra những thay đổi tích cực trong cuộc sống."
+    },
+    {
+      "id": 8,
+      "title": "Đắc Nhân Tâm",
+      "author": "Dale Carnegie",
+      "isbn": "9780671027032",
+      "categoryId": 5,
+      "year": 1936,
+      "quantity": 8,
+      "cover": "https://covers.openlibrary.org/b/isbn/9780671027032-M.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Lược sử thời gian",
+      "author": "Stephen Hawking",
+      "isbn": "9780553380163",
+      "categoryId": 4,
+      "year": 1988,
+      "quantity": 4,
+      "cover": "https://covers.openlibrary.org/b/isbn/9780553380163-M.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Sapiens: Lược sử loài người",
+      "author": "Yuval Noah Harari",
+      "isbn": "9780062316097-2",
+      "categoryId": 6,
+      "year": 2015,
+      "quantity": 5,
+      "cover": "https://covers.openlibrary.org/b/isbn/9780062316097-M.jpg"
+    },
+    {
+      "id": 11,
+      "title": "English Grammar in Use",
+      "author": "Raymond Murphy",
+      "isbn": "9781108457651",
+      "categoryId": 7,
+      "year": 2019,
+      "quantity": 7,
+      "cover": "https://covers.openlibrary.org/b/isbn/9781108457651-M.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Tuổi trẻ đáng giá bao nhiêu",
+      "author": "Rosie Nguyễn",
+      "isbn": "9786049548127",
+      "categoryId": 5,
+      "year": 2017,
+      "quantity": 6,
+      "cover": "https://covers.openlibrary.org/b/isbn/9786049548127-M.jpg"
+    },
+    {
+      "title": "Naruto",
+      "author": "abc",
+      "isbn": "2211111111111111111111",
+      "categoryId": 8,
+      "year": 2026,
+      "quantity": 1,
+      "cover": "https://cellphones.com.vn/sforum/cac-tap-phim-loat-phim-naruto",
+      "id": 13
+    }
+  ],
+  "readers": [
+    {
+      "id": 1,
+      "name": "Nguyễn Minh Anh",
+      "email": "minhanh@example.com",
+      "phone": "0912345678",
+      "joinedAt": "2026-01-15"
+    },
+    {
+      "id": 2,
+      "name": "Trần Đức Long",
+      "email": "duclong@example.com",
+      "phone": "0987654321",
+      "joinedAt": "2026-03-22"
+    },
+    {
+      "id": 3,
+      "name": "Lê Thu Hà",
+      "email": "thuha@example.com",
+      "phone": "0901122334",
+      "joinedAt": "2026-06-10"
+    },
+    {
+      "name": "Tiến",
+      "email": "chung@gmail.com",
+      "phone": "",
+      "joinedAt": "2026-11-08",
+      "userId": 1,
+      "id": 4
+    }
+  ],
+  "loans": [
+    {
+      "id": 1,
+      "bookId": 1,
+      "readerId": 1,
+      "borrowDate": "2026-10-20",
+      "dueDate": "2026-11-03",
+      "returnDate": null
+    },
+    {
+      "id": 2,
+      "bookId": 4,
+      "readerId": 2,
+      "borrowDate": "2026-10-12",
+      "dueDate": "2026-10-26",
+      "returnDate": "2026-11-08",
+      "status": "returned"
+    },
+    {
+      "id": 3,
+      "bookId": 6,
+      "readerId": 3,
+      "borrowDate": "2026-09-01",
+      "dueDate": "2026-09-15",
+      "returnDate": "2026-09-12"
+    },
+    {
+      "bookId": 11,
+      "userId": 1,
+      "userName": "Tiến",
+      "userEmail": "chung@gmail.com",
+      "status": "rejected",
+      "borrowDate": null,
+      "dueDate": null,
+      "returnDate": null,
+      "id": 4
+    },
+    {
+      "bookId": 1,
+      "userId": 1,
+      "userName": "Tiến",
+      "userEmail": "chung@gmail.com",
+      "status": "active",
+      "borrowDate": "2026-11-08",
+      "dueDate": "2026-11-12",
+      "returnDate": null,
+      "id": 5,
+      "readerId": 4
+    }
+  ]
+}
